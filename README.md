@@ -1,16 +1,6 @@
 # M3HL
 
 
-
-## Contents
-- [Abstract](##Abstract)
-- [Introduction](##Introduction)
-- [Requirements](##Requirements)
-- [Datasets](##Datasets)
-- [Usage](##Usage)
-- [Acknowledgements](##Acknowledgements)
-
-
 ## Introduction
 Official code for "M3HL".
 
