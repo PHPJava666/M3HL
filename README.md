@@ -10,9 +10,8 @@ This repository is based on PyTorch 1.8.0, CUDA 11.3 and Python 3.8.10. All expe
 ## Datasets
 **Preprocess**: refer to the image pre-processing method in [CoraNet]and [BCP] for the Left atrium dataset and ACDC dataset. 
 The `dataloaders` folder contains the necessary code to preprocess the Left atrium and ACDC dataset. 
-Pancreas pre-processing code can be got at [CoraNet].
-
-**Dataset split**: The `./Datasets` folder contains the information about the train-test split for all three datasets.
+                                                                                 
+**Dataset split**: The `./Datasets` folder contains the information about the train-test split for all datasets.
 ## Usage
 We provide `code`, `data_split` and `models` (Include pre-trained models and fully trained models) for the Left atrium dataset and ACDC dataset.
 
@@ -28,4 +27,4 @@ python ./code/test_ACDC.py  #for ACDC testing
 ```
 
 ## Acknowledgements
-Our code is largely based on [BCP]and [SS-Net]. Thanks for these authors for their valuable work, hope our work can also contribute to related research.
+Our code is largely based on [BCP] and [SS-Net]. Thanks for these authors for their valuable work, hope our work can also contribute to related research.
