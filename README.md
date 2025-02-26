@@ -8,13 +8,13 @@ Official code for "M3HL".
 ## Requirements
 This repository is based on PyTorch 1.8.0, CUDA 11.3 and Python 3.8.10. All experiments in our paper were conducted on NVIDIA Quadro RTX 6000 24GB GPU with an identical experimental setting.
 ## Datasets
-**Preprocess**: refer to the image pre-processing method in [CoraNet]and [BCP] for the Pancreas dataset, Left atrium and ACDC dataset. 
+**Preprocess**: refer to the image pre-processing method in [CoraNet]and [BCP] for the Left atrium dataset and ACDC dataset. 
 The `dataloaders` folder contains the necessary code to preprocess the Left atrium and ACDC dataset. 
 Pancreas pre-processing code can be got at [CoraNet].
 
 **Dataset split**: The `./Datasets` folder contains the information about the train-test split for all three datasets.
 ## Usage
-We provide `code`, `data_split` and `models` (Include pre-trained models and fully trained models) for Pancreas, LA and ACDC dataset.
+We provide `code`, `data_split` and `models` (Include pre-trained models and fully trained models) for the Left atrium dataset and ACDC dataset.
 
 Data could be got at [Pancreas](https://wiki.cancerimagingarchive.net/display/Public/Pancreas-CT), [LA](https://github.com/yulequan/UA-MT/tree/master/data) and [ACDC](https://github.com/HiLab-git/SSL4MIS/tree/master/data/ACDC).
 
