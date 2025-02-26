@@ -16,16 +16,15 @@ Pancreas pre-processing code can be got at [CoraNet].
 ## Usage
 We provide `code`, `data_split` and `models` (Include pre-trained models and fully trained models) for the Left atrium dataset and ACDC dataset.
 
-Data could be got at [Pancreas](https://wiki.cancerimagingarchive.net/display/Public/Pancreas-CT), [LA](https://github.com/yulequan/UA-MT/tree/master/data) and [ACDC](https://github.com/HiLab-git/SSL4MIS/tree/master/data/ACDC).
 
 To train a model,
 ```
-python ./code/LA_train.py  #for LA training
+python ./code/ACDC_train.py  #for ACDC training
 ``` 
 
 To test a model,
 ```
-python ./code/test_LA.py  #for LA testing
+python ./code/test_ACDC.py  #for ACDC testing
 ```
 
 ## Acknowledgements
