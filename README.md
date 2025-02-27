@@ -19,3 +19,4 @@ To test a model,
 ```
 python ./code/test_ACDC.py  #for ACDC testing
 ```
+The code for LA training and testing will be updated very quickly.
