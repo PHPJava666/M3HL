@@ -297,9 +297,6 @@ def self_train(args, snapshot_path):
             ulab_a, ulab_b = label_batch[args.labeled_bs:args.labeled_bs + unlabeled_sub_bs], label_batch[args.labeled_bs + unlabeled_sub_bs:]
             lab_a, lab_b = label_batch[:labeled_sub_bs], label_batch[labeled_sub_bs:args.labeled_bs]
             with torch.no_grad():
-                pre_a = ema_model(uimg_a)
-                pre_b = ema_model(uimg_b)
-
                 pre_a, high_level_feature_uimg_a, low_level_feature_uimg_a = ema_model(uimg_a)
                 pre_b, high_level_feature_uimg_b, low_level_feature_uimg_b = ema_model(uimg_b)
 
