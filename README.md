@@ -1,8 +1,3 @@
-# M3HL
-
-
-## Introduction
-Official code for "M3HL".
 
 
 ## Requirements
