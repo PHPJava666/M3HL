@@ -20,4 +20,4 @@ python ./code/test_ACDC.py  #for ACDC testing
 ```
 python ./code/test_LA.py  #for LA testing
 ```
-The code for LA training and testing will be updated very quickly.
+
